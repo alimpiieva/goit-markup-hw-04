@@ -314,6 +314,23 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .team-text{
 color: var(--secondary-text-color);
+margin-bottom: 8px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
 }
 
 /* --------- FOOTER ------- */
@@ -345,6 +362,36 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.social-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social-icon-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-media-text{
+    color: #FFFFFF;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.footer-container {
+    display:flex;
+    gap: 120px;
+    align-items: center;
+}
 /* ------- PORTFOLIO ------ */
 
 .filter {
