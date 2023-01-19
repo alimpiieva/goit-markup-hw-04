@@ -209,6 +209,7 @@ justify-content: space-between;
 
 .value-name-item{
     max-width:264px;
+
 }
 
 .value-name-item:not(:last-child){
@@ -242,6 +243,16 @@ letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 }
 
+.value-icon-cont{
+    width: 264px;
+    background-color: #F4F4FD;
+        border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 24px 103px;
+    margin-bottom: 8px;
+    
+}
 /* ---------- SECTION 3 -------- */
 
 .activities{
@@ -332,7 +343,10 @@ margin-bottom: 8px;
     border-radius: 50%;
     background-color: #4D5AE5;
 }
-
+.social-list-link:hover,
+.social-list-link:focus{
+    background-color: #404BBF;
+}
 /* --------- FOOTER ------- */
 
 .footer{
@@ -378,6 +392,11 @@ letter-spacing: 0.02em;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.social-icon-list-link:hover,
+.social-icon-list-link:focus {
+background-color: #31D0AA;
+}
+
 .social-media-text{
     color: #FFFFFF;
     font-weight: 500;
@@ -390,7 +409,7 @@ letter-spacing: 0.02em;
 .footer-container {
     display:flex;
     gap: 120px;
-    align-items: center;
+    align-items: baseline;
 }
 /* ------- PORTFOLIO ------ */
 
