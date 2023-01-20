@@ -347,6 +347,58 @@ margin-bottom: 8px;
 .social-list-link:focus{
     background-color: #404BBF;
 }
+
+/* ------- SECTION 5 ------ */
+
+.customers {
+padding-top: 130px;
+padding-bottom: 120px;
+}
+
+.customers-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 0.02;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+        padding-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-link {
+border: 1px solid #8e8f99;
+border-radius: 4px;
+height: 88px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.customers-link:hover,
+.customers-link:focus { 
+    border-color: #404BBF;
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+    fill: #404BBF;
+}
+
+.customers-list-item {
+    width: 168px;
+}
+
+.customers-icon {
+    width: 104px;
+    height: 56px;
+    fill: #8E8F99;
+}
 /* --------- FOOTER ------- */
 
 .footer{
@@ -411,8 +463,14 @@ background-color: #31D0AA;
     gap: 120px;
     align-items: baseline;
 }
+
+
 /* ------- PORTFOLIO ------ */
 
+.portfolio-item:hover,
+.portfolio-item:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .filter {
     padding-bottom: 120px;
     padding-top: 96px;
